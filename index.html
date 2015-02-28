@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Icloud-bypass-2.0 : all developments will be add here and http://idevicetool.eu  ( colab web ) educational purposes">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Icloud-bypass-2.0</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/Nad4/icloud-bypass-2.0">View on GitHub</a>
+
+          <h1 id="project_title">Icloud-bypass-2.0</h1>
+          <h2 id="project_tagline">all developments will be add here and http://idevicetool.eu  ( colab web ) educational purposes</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/Nad4/icloud-bypass-2.0/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/Nad4/icloud-bypass-2.0/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <p>Do any required upgrades on apt.
+sudo apt-get update
+sudo apt-get upgrade
+First, we need to get the dependencies
+sudo apt-get install build-essential automake cmake \
+libreadline6 autotools-dev libcurl4-openssl-dev autoconf \
+libplist1 libplist-utils libplist-dev libplist++-dev \
+libzip-dev git curl libgnutls-dev libreadline-dev libusb-dev \
+libtool libusb-1.0-0-dev libusbmuxd-dev libglib2.0-dev libimobiledevice-dev</p>
+
+<p>Install libirecovery
+mkdir ~/idevicerestore
+cd ~/idevicerestore
+git clone <a href="http://git.sukimashita.com/libirecovery.git">http://git.sukimashita.com/libirecovery.git</a>
+cd libirecovery
+./autogen.sh
+make &amp;&amp; sudo make install
+Finally to get idevicerestore
+cd ~/idevicerestore
+git clone git://github.com/tcf38012/idevicerestore.git
+cd idevicerestore
+./autogen.sh
+make &amp;&amp; sudo make install
+sudo ldconfig
+Also, you might want iDeviceactivate, to activate after you have restored
+cd ~/idevicerestore
+git clone <a href="http://github.com/posixninja/ideviceactivate.git">http://github.com/posixninja/ideviceactivate.git</a>
+cd ideviceactivate
+make</p>
+
+<p>all info <a href="http://idevicetool.eu">http://idevicetool.eu</a> </p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Icloud-bypass-2.0 maintained by <a href="https://github.com/Nad4">Nad4</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
