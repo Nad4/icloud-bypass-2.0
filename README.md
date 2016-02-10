@@ -1,5 +1,5 @@
 # icloud-bypass-2.0
-all developments will be add here and http://idevicetool.eu  ( colab web ) educational purposes
+all developments will be add here and http://idevicetool.com ( colab web ) educational purposes
 
 This is a guide to compiling iDeviceRestore by @p0sixninja on debian linux. It has been tested on Ubuntu 12.04 (and even the raspberry pi on raspbian!) and is working.
 
@@ -33,4 +33,4 @@ git clone http://github.com/posixninja/ideviceactivate.git
 cd ideviceactivate
 make
 
-http://idevicetool.eu
+http://idevicetool.com
